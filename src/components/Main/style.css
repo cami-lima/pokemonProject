@@ -1,0 +1,23 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-logo {
+  width: 270px;
+  height: 99px;
+  padding-bottom: 32px;
+}
+
+.btn-main {
+  width: 124px;
+  height: 56px;
+  border-radius: 42px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff3d71;
+  border: none;
+}
