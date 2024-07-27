@@ -1,7 +1,8 @@
 .background-container {
   position: relative;
-  background-image: url("../../assets/Background.svg");
+  background-image: url("../../assets/Background.png");
   background-position: center;
+  background-size: cover;
 }
 
 .container-btn {
