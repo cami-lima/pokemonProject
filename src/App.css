@@ -1,6 +1,5 @@
-.main-app {
+.app {
   background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
-  min-height: 100vh;
   display: flex;
   justify-content: center;
 }
