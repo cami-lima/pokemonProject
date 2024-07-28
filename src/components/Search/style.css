@@ -1,0 +1,6 @@
+.search-container {
+  position: absolute;
+  transform: translate(-90%, -100%);
+  width: 64px;
+  height: 64px;
+}

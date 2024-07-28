@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Avatar from "../Avatar/avatar";
+import Modal from "../Modal/modal";
 import QuestionButton from "../Buttons/questionButton";
 import PlusButton from "../Buttons/plusButton";
 
@@ -16,6 +17,9 @@ export default function Map() {
         <QuestionButton />
         <QuestionButton />
         <PlusButton />
+      </div>
+      <div className="modal-container">
+        <Modal />
       </div>
     </div>
   );

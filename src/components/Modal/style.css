@@ -1,0 +1,52 @@
+.primary-container {
+  position: relative;
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  width: 360px;
+  height: 520px;
+  overflow: hidden;
+}
+
+.second-container {
+  position: absolute;
+  background-color: #f7f9fc;
+  width: 360px;
+  height: 670px;
+  margin-top: 153px;
+  border-radius: 24px 24px 0px 0px;
+  z-index: 1;
+}
+
+.icon-close {
+  width: 19px;
+  height: 19px;
+}
+
+.btn-close {
+  position: absolute;
+  width: 38px;
+  margin-top: 21px;
+  padding: 9px;
+  right: 10px;
+  border-radius: 100%;
+  z-index: 3;
+  height: auto;
+}
+
+.img-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f7f9fc;
+  width: 247px;
+  height: 247px;
+  border-radius: 100%;
+  border-color: 4px solid #00d68f7a;
+  z-index: 2;
+}
+
+.pokemon-img {
+  width: 247px;
+  height: 247px;
+  border-radius: 100%;
+}
