@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import "./style.css";
 
-export function Main() {
+export default function Main() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
