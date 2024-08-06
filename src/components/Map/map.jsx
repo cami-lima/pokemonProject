@@ -28,9 +28,8 @@ export default function Map() {
         <QuestionButton />
         <PlusButton />
       </div>
-      <div className="modal-container">
-        {isModalOpen && <Modal onClose={closeModal} />}
-      </div>
+
+      {isModalOpen && <Modal onClose={closeModal} />}
     </div>
   );
 }
